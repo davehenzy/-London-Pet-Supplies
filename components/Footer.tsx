@@ -66,7 +66,17 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-10 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-500 text-xs uppercase tracking-widest font-bold">
-          <p>© {new Date().getFullYear()} {BUSINESS_INFO.name}. All rights reserved.</p>
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+            <p>© {new Date().getFullYear()} {BUSINESS_INFO.name}.</p>
+            <a 
+              href="https://wa.me/2348147192169" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-white transition-colors flex items-center gap-1.5"
+            >
+              Built with <span className="text-rose-500">❤️</span> by Techie Xtract
+            </a>
+          </div>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
