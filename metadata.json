@@ -1,0 +1,7 @@
+{
+  "name": "PETS Veterinary - London Pet Supplies",
+  "description": "A modern, inclusive, and professional web presence for PETS Veterinary, London's premier dog grooming and pet supply destination. Featuring specialized grooming services, quality supplies, and a warm, welcoming atmosphere.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
